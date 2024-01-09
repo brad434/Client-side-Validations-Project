@@ -1,0 +1,30 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: aliceblue;
+  font-family: "Fjalla One", Arial;
+}
+
+#heading {
+  text-align: center;
+}
+
+#container {
+  text-align: center;
+  width: 50%;
+  height: 50%;
+  margin: 3px auto;
+  padding: 4px 0;
+  /* background: yellow; */
+  line-height: 40px;
+  border: 2px solid black;
+  border-radius: 30px;
+}
+
+#userContainer {
+  margin: 3px auto;
+  padding: 3px 0;
+}

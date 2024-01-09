@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Login Page</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+</head>
+
+<body>
+  <section id="heading">
+    <h1>Sign Up</h1>
+    <h3>Create an account</h3>
+  </section>
+
+  <section id="container">
+    <form action="submission.html" method="GET">
+      <section id="userContainer">
+        <label for="username">Username</label><br />
+        <input type="text" name="username" id="username" required min="3" max="250"><br />
+      </section>
+
+      <section id="passContainer">
+        <label for="pass">Password</label><br />
+        <input type="password" name="pass" id="pass" required min="7" max="250">
+      </section>
+
+      <input type="submit" value="submit">
+      <!-- <button type="submit" value="Submit">Submit</button> -->
+    </form>
+  </section>
+</body>
+<script src="script.js"></script>
+
+</html>
